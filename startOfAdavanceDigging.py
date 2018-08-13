@@ -6,3 +6,5 @@ bsObj = BeautifulSoup(html,'lxml')
 namelist =bsObj.findAll("span",{"class":"green"})
 for name in namelist:
     print(name.get_text())
+
+#it gives green color texts
