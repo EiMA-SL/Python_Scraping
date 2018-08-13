@@ -10,4 +10,3 @@ from bs4 import BeautifulSoup
 html = urlopen("http://vertspace.lk/work.html")
 bsObj = BeautifulSoup(html.read(),'lxml')
 print(bsObj.h1)
-#print(bsObj.nonExistingTag.sometag)
